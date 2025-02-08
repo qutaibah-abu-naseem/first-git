@@ -16,7 +16,7 @@ regis.addEventListener("click",function(f){
     }else{
         if(localStorage.getItem("email")==con_email.value&&localStorage.getItem("password")==con_pass.value){
             setTimeout(function(){
-                window.location="file:///C:/Users/DELL/Desktop/project_fullstack/five-project/index.html"
+                window.location.href="../index.html"
             },1000)
         }else{
             wrong.style.display="block"
